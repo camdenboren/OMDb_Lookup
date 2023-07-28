@@ -1,0 +1,38 @@
+<!--
+##########################################################################################################################
+#  OMDb Lookup Widget                                                                                                    #
+#                                                                                                                        #
+#  Client-facing HTML for widget                                                                                         #
+#                                                                                                                        #
+#  Written by Camden Boren @ 7/27/2023                                                                                   #
+#                                                                                                                        #
+#  This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0. If a copy of the MPL was not     #
+#  distributed with this file, You can obtain one at https://mozilla.org/MPL/2.0/.                                       #
+##########################################################################################################################
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="/app.js"></script>
+    <title>OMDb Lookup</title>
+</head>
+<body>
+    <h1>OMDb Lookup</h1>
+    <label for = "searchTitle">Title:</label>
+    <input type = "text" id = "searchTitle" name = "searchTitle"
+        minlength = "1" maxlength= "100" size = "10">
+    <label for = "searchYear">Year:</label>
+    <input type = "text" id = "searchYear" name = "searchYear"
+        minlength = "1" maxlength= "100" size = "10">
+    <input type = "button" value = "Search" onclick = "inputs()">
+    <p id = "title"></p>
+    <p id = "year"></p>
+    <p id = "director"></p>
+    <p id = "runtime"></p>
+    <p id = "ratings"></p>
+</body>
+</html>
