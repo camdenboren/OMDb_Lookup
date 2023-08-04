@@ -1,3 +1,16 @@
+/*
+##########################################################################################################################
+#  OMDb Lookup Widget                                                                                                    #
+#                                                                                                                        #
+#  Styles for OMDb_Lookup Widget                                                                                         #
+#                                                                                                                        #
+#  Written by Camden Boren 7/27/2023                                                                                     #
+#                                                                                                                        #
+#  This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0. If a copy of the MPL was not     #
+#  distributed with this file, You can obtain one at https://mozilla.org/MPL/2.0/.                                       #
+##########################################################################################################################
+*/
+
 body {
     background-color: rgb(60, 0, 0);
     color: red;
