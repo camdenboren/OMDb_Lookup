@@ -2,7 +2,7 @@
 ##########################################################################################################################
 #  OMDb Lookup Widget                                                                                                    #
 #                                                                                                                        #
-#  Uses the OMDb API to return the top result for given title and year inputs                                            #
+#  Calls the backend worker to return and display the top result for given title and year inputs                         #
 #                                                                                                                        #
 #  Written by Camden Boren 8/3/2023                                                                                      #
 #                                                                                                                        #
