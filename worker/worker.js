@@ -17,7 +17,7 @@ export default {
       const { searchParams } = new URL(request.url);
       let titleParam = searchParams.get('title');
       let yearParam = searchParams.get('year');
-      let apiURL = 'http://www.omdbapi.com/?';
+      let apiURL = 'https://www.omdbapi.com/?';
   
       /* API Fetch, passing params */
       let response = await fetch(apiURL + new URLSearchParams({
